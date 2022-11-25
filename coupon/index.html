@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <main>
+      <div class="form-card-header text-center">
+          <div class="container w-50">
+              <div class="form-card-header my-5">
+                  <h3>Generate Coupon code</h3>
+              </div>
+              <div class="card-header text-center py-5">
+                  <form action="post">
+                      <div class="col-lg-12 mb-5">
+                        <label for="coupon" class="mb-2">Please generate coupon code</label>
+                        <input type="text" name="coupon" id="coupon" class="form-control" readonly>
+                        <button type="button" class="btn btn-sm btn-success mt-3" id="generate">Generate</button>
+                      </div>
+                      <div class="col-lg-12 my-3">
+                        <label for="price" class="mb-2">Please enter price</label>
+                        <input type="number" name="price" id="price" class="form-control text-center" >
+                      </div>
+                      <input type="submit" name="submit" id="submit" value="submit" class="btn btn-primary px-3 mt-3 text-uppercase">
+                  </form>
+              </div>
+          </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
